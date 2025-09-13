@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #8d9092;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #f5f9ff;
+  box-shadow: 0px 2px 10px #e0e2e3;
+}
+
+.header .left {
+  color: #3498db;
+  font-weight: 800;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.header .center {
+  color: #333333;
+}
+
+.header .center a {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.container_1 {
+    padding: 50px;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.container_1 .left {
+    width: 50%;
+    padding-left: 10%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_1 .left .name {
+    color: #3498db;
+    font-size: 45px;
+}
+
+.container_1 .left .skill {
+    color: #333333;
+    font-weight: 300;
+}
+
+.container_1 .left .descreption {
+}
+
+.container_1 .left button {
+width: 140px;
+height: 40px;
+border-radius: 20px;
+cursor: pointer;
+color: #fff;
+background-color: #3498db;
+border: none;
+}
+
+.container_1 .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_1 .right img {
+  width: 70%;
+  /* height: 300px; */
+  border-radius: 20px;
+}
+
+.container_2{
+    background-color: #f5f9ff;
+    padding: 100px 20px;
+    /* text-align: center; */
+}
+
+.container_2 h2{
+    color: #3498db;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container_2 p{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.container_2 .cards{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.container_2 .cards .card{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 0px 2px 5px #777;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_2 .cards .card .top{
+    margin-bottom: -80px;
+}
+
+.container_2 .cards .card .center{
+    color: #333333;
+    font-weight: 600;
+}
+
+.container_2 .cards .card .bottom{
+    text-align: center;
+    margin-top: -100px;
+}
+
+
+/* #3498DB */
+/* #333333 */
